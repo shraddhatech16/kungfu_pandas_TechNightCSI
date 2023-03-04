@@ -1,17 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
 import HomePage from './components/Homepage/Homepage';
 import Cards from './components/Cards/Cards';
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import About from './components/About/About';
 
 function App() {
   return (
+    
     <div className="App">
+      
+      <Router>
       <Navbar></Navbar>
-      <HomePage></HomePage>
-      <h1 class="heading">Lets help each other and save the world...</h1>
-      <Cards></Cards>
+      <Routes>
+      <Route exact path="/" element={<><HomePage />, <Cards></Cards></>} />
+      <Route exact path="/about" element={<About />} />
+
+      </Routes>
+      </Router>
     </div>
   );
 }
