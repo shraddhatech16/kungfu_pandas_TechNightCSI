@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <HomePage></HomePage>
+      <h1 class="heading">Lets help each other and save the world...</h1>
       <Cards></Cards>
     </div>
   );
