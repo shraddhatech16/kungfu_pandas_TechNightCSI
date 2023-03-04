@@ -27,7 +27,7 @@ function GridExample() {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </Card.Text>
-                    <Button variant="primary">Vew Template</Button>
+                    <Button href="/template2" variant="primary">Vew Template</Button>
                 </Card.Body>
             </Card>
             <Card style={{ width: '16rem' }} className="box mx-2 mt-3">

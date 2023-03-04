@@ -4,14 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Row, Col, Card, Button, Form } from "react-bootstrap";
-
 import './SampleTemplate.css'
 function SampleTemplate() {
     return (
         <>
             <div className=' grid row mx-auto'>
             <h3>The Sample template Starts from here</h3>
-            <button><a href="/file1.txt" download>Download</a></button>
+            <button><a href='/somefile.txt' download>Click to download</a></button>
 
             </div>
             

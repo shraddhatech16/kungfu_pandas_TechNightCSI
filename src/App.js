@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import About from './components/About/About';
 import SampleTemplate from './components/SampleTemplate/SampleTemplate';
+import SampleTemplate2 from './components/SampleTemplate2/SampleTemplate2';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route exact path="/" element={<><HomePage />, <Cards></Cards></>} />
       <Route exact path="/about" element={<About />} />
       <Route exact path="/template1" element={<SampleTemplate />} />
+      <Route exact path="/template2" element={<SampleTemplate2 />} />
 
       </Routes>
       </Router>

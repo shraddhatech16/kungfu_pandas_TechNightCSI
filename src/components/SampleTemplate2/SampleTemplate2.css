@@ -1,0 +1,10 @@
+.container-2{
+    background-image: url("img.webp");
+    height:500px;
+
+    border:2px solid rgb(170, 167, 243)
+}
+
+.centered{
+    padding:10 10 10 10;
+}
