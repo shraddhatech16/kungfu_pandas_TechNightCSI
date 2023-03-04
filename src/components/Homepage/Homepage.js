@@ -16,8 +16,6 @@ export default function Homepage() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>Lets help people </h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -28,8 +26,6 @@ export default function Homepage() {
             />
     
             <Carousel.Caption>
-              <h3>We will help you to create your own website</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -40,14 +36,13 @@ export default function Homepage() {
             />
     
             <Carousel.Caption>
-              <h3>Join us to create the new future</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              
             </Carousel.Caption>
           </Carousel.Item>
+          
         </Carousel>
     </div>
+    
   )
 }
 
