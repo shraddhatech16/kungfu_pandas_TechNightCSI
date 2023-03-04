@@ -5,70 +5,76 @@ import "./Cards.css";
 
 function GridExample() {
   return (
-    <Row xs={2} md={2} className="g-4">
-      {Array.from({ length: 2 }).map((_, idx) => (
-        <Col>
-          <CardGroup class="my-card">
-            <div class="row">
-              <div class="column">
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src="https://i.pinimg.com/564x/fa/ba/86/faba86feadde88a0615c5dec6442008a.jpg"
-                  />
-                  <Card.Body>
+    <div className="container grid row mx-auto">
+      <h1>Choose the Template to start building your website!</h1>
+        
+
+            <Card style={{ width: '16rem' }} className="box mx-2 mt-3">
+                <Card.Img variant="top" src="https://colorlib.com/wp/wp-content/uploads/sites/2/lovecare-colorlib-template-353x278.jpg" />
+                <Card.Body>
                     <Card.Title>Template 1</Card.Title>
                     <Card.Text>
-                      use this template for creating amazing website for your
-                      NGO
+                        This template includes registration form for the volunteers also it includes the donation page for the citizens
                     </Card.Text>
-                    <Card.Link href="#">
-                      <Button varient="danger">View</Button>
-                    </Card.Link>
-                  </Card.Body>
-                </Card>
-              </div>
-              <div class="column">
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src="https://i.pinimg.com/564x/fa/ba/86/faba86feadde88a0615c5dec6442008a.jpg"
-                  />
-                  <Card.Body>
+                    <Button variant="primary" href="/template1">Vew Template</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '16rem' }} className="box mx-2 mt-3">
+                <Card.Img variant="top" src="https://freshdesignweb.com/wp-content/uploads/Kologi-Charity.jpg" />
+                <Card.Body>
                     <Card.Title>Template 2</Card.Title>
                     <Card.Text>
-                      use this template for creating amazing website for your
-                      NGO
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
                     </Card.Text>
-                    <Card.Link href="#">
-                      <Button varient="danger">View</Button>
-                    </Card.Link>
-                  </Card.Body>
-                </Card>
-              </div>
-              <div class="column">
-                <Card>
-                  <Card.Img
-                    variant="top"
-                    src="https://i.pinimg.com/564x/fa/ba/86/faba86feadde88a0615c5dec6442008a.jpg"
-                  />
-                  <Card.Body>
-                    <Card.Title>Template 2</Card.Title>
+                    <Button variant="primary">Vew Template</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '16rem' }} className="box mx-2 mt-3">
+                <Card.Img variant="top" src="https://colorlib.com/wp/wp-content/uploads/sites/2/thecharity-free-template.jpg" />
+                <Card.Body>
+                    <Card.Title>Template 3</Card.Title>
                     <Card.Text>
-                      use this template for creating amazing website for your
-                      NGO
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
                     </Card.Text>
-                    <Card.Link href="#">
-                      <Button varient="danger">View</Button>
-                    </Card.Link>
-                  </Card.Body>
-                </Card>
-              </div>
+                    <Button variant="primary">Vew Template</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '16rem' }} className="box mx-2 mt-3">
+                <Card.Img variant="top" src="https://colorlib.com/wp/wp-content/uploads/sites/2/thecharity-free-template.jpg" />
+                <Card.Body>
+                    <Card.Title>Template 4</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Vew Template</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '16rem' }} className="box mx-2 mt-3">
+                <Card.Img variant="top" src="https://colorlib.com/wp/wp-content/uploads/sites/2/thecharity-free-template.jpg" />
+                <Card.Body>
+                    <Card.Title>Template 5</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Vew Template</Button>
+                </Card.Body>
+            </Card>
+            <Card style={{ width: '16rem' }} className="box mx-2 mt-3">
+                <Card.Img variant="top" src="https://colorlib.com/wp/wp-content/uploads/sites/2/thecharity-free-template.jpg" />
+                <Card.Body>
+                    <Card.Title>Template 6</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Vew Template</Button>
+                </Card.Body>
+            </Card>
             </div>
-          </CardGroup>
-        </Col>
-      ))}
-    </Row>
   );
 }
 

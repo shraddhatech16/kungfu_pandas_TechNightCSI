@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .column {
+    float: left;
+    width: 20;
+    padding: 0 10px;
+  }
+  .row {margin: 0 -5px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  @media screen and (max-width: 60px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+.container-1 {
+    background-image: url("img1.jpg");
+    height: 500px;
+    border: 2px solid rgb(197, 157, 157);
+}
+.centered {
+    color: white;
+    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered-1 {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .centered-2 {
+    color: blanchedalmond;
+    border: 2px solid rgb(104, 61, 25);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container-5{
+    
+  }

@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import About from './components/About/About';
+import SampleTemplate from './components/SampleTemplate/SampleTemplate';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
       <Route exact path="/" element={<><HomePage />, <Cards></Cards></>} />
       <Route exact path="/about" element={<About />} />
+      <Route exact path="/template1" element={<SampleTemplate />} />
 
       </Routes>
       </Router>
