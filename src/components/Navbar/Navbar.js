@@ -6,7 +6,7 @@ function Navbar() {
     <div>
       <nav>
       <div>
-        <a href="#">Logo</a>
+        <a href="#">Kind Charity</a>
       </div>
       <ul>
         <li><a href="/">Home</a></li>
